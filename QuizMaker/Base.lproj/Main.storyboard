@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kMb-ew-bf8">
+    <device id="retina5_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Cfz-fc-pG8">
+            <objects>
+                <navigationController id="kMb-ew-bf8" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2C7-Fz-g6B">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="NCw-JZ-d2w"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bq5-gc-Hmr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-559" y="133"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="QuizMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDc-MT-m9T">
+                                <rect key="frame" x="16" y="370" width="704" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="LOGIN">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="LoginOnClick:" destination="BYZ-38-t0r" eventType="touchDown" id="noU-l7-Fkf"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="RX9-SC-eV2" userLabel="UIPasswordTF">
+                                <rect key="frame" x="20" y="163" width="1022" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r1H-Cg-MnI">
+                                <rect key="frame" x="20" y="136" width="1018" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IDc-MT-m9T" secondAttribute="bottom" constant="14" id="3Im-94-niH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r1H-Cg-MnI" secondAttribute="trailing" constant="12" id="3zr-6O-6OT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IDc-MT-m9T" secondAttribute="trailing" constant="16" id="9Hr-NX-fRZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r1H-Cg-MnI" secondAttribute="trailing" constant="16" id="B47-8A-O1y"/>
+                            <constraint firstItem="IDc-MT-m9T" firstAttribute="top" secondItem="RX9-SC-eV2" secondAttribute="bottom" constant="66" id="E9M-ng-1LA"/>
+                            <constraint firstItem="IDc-MT-m9T" firstAttribute="top" secondItem="RX9-SC-eV2" secondAttribute="bottom" constant="40" id="Fga-f9-eHg"/>
+                            <constraint firstItem="r1H-Cg-MnI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="TTA-e8-mh8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RX9-SC-eV2" secondAttribute="trailing" constant="12" id="Ufw-mG-Ewx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r1H-Cg-MnI" secondAttribute="trailing" constant="20" id="W7S-UW-Bs9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r1H-Cg-MnI" secondAttribute="trailing" constant="16" id="a7x-4v-DTu"/>
+                            <constraint firstItem="RX9-SC-eV2" firstAttribute="top" secondItem="r1H-Cg-MnI" secondAttribute="bottom" constant="14" id="af6-be-gWI"/>
+                            <constraint firstItem="IDc-MT-m9T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="bpv-DN-kw9"/>
+                            <constraint firstItem="r1H-Cg-MnI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fcg-NC-hAm"/>
+                            <constraint firstItem="RX9-SC-eV2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jtm-i8-dU1"/>
+                            <constraint firstItem="RX9-SC-eV2" firstAttribute="top" secondItem="r1H-Cg-MnI" secondAttribute="bottom" constant="12" id="lmJ-YS-saQ"/>
+                            <constraint firstItem="RX9-SC-eV2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mF0-4t-idx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RX9-SC-eV2" secondAttribute="trailing" constant="16" id="nJw-Ql-dwo"/>
+                            <constraint firstItem="IDc-MT-m9T" firstAttribute="top" secondItem="RX9-SC-eV2" secondAttribute="bottom" constant="160" id="o4M-QA-0Xq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RX9-SC-eV2" secondAttribute="trailing" constant="12" id="oVt-on-EfX"/>
+                            <constraint firstItem="RX9-SC-eV2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="q5J-T2-Diu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r1H-Cg-MnI" secondAttribute="trailing" constant="12" id="tDZ-LP-9hC"/>
+                            <constraint firstItem="r1H-Cg-MnI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yco-Is-dkd"/>
+                            <constraint firstItem="RX9-SC-eV2" firstAttribute="top" secondItem="r1H-Cg-MnI" secondAttribute="bottom" constant="20" id="zwu-rz-EvW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3zr-6O-6OT"/>
+                                <exclude reference="B47-8A-O1y"/>
+                                <exclude reference="Ufw-mG-Ewx"/>
+                                <exclude reference="W7S-UW-Bs9"/>
+                                <exclude reference="a7x-4v-DTu"/>
+                                <exclude reference="nJw-Ql-dwo"/>
+                                <exclude reference="oVt-on-EfX"/>
+                                <exclude reference="tDZ-LP-9hC"/>
+                                <exclude reference="TTA-e8-mh8"/>
+                                <exclude reference="fcg-NC-hAm"/>
+                                <exclude reference="yco-Is-dkd"/>
+                                <exclude reference="af6-be-gWI"/>
+                                <exclude reference="jtm-i8-dU1"/>
+                                <exclude reference="lmJ-YS-saQ"/>
+                                <exclude reference="mF0-4t-idx"/>
+                                <exclude reference="q5J-T2-Diu"/>
+                                <exclude reference="zwu-rz-EvW"/>
+                                <exclude reference="E9M-ng-1LA"/>
+                                <exclude reference="Fga-f9-eHg"/>
+                                <exclude reference="o4M-QA-0Xq"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="B47-8A-O1y"/>
+                                <include reference="Ufw-mG-Ewx"/>
+                                <include reference="tDZ-LP-9hC"/>
+                                <include reference="fcg-NC-hAm"/>
+                                <include reference="lmJ-YS-saQ"/>
+                                <include reference="q5J-T2-Diu"/>
+                                <include reference="E9M-ng-1LA"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="W7S-UW-Bs9"/>
+                                <include reference="nJw-Ql-dwo"/>
+                                <include reference="TTA-e8-mh8"/>
+                                <include reference="jtm-i8-dU1"/>
+                                <include reference="zwu-rz-EvW"/>
+                                <include reference="Fga-f9-eHg"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="3zr-6O-6OT"/>
+                                <exclude reference="a7x-4v-DTu"/>
+                                <include reference="oVt-on-EfX"/>
+                                <include reference="yco-Is-dkd"/>
+                                <include reference="af6-be-gWI"/>
+                                <include reference="mF0-4t-idx"/>
+                                <include reference="o4M-QA-0Xq"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="z0t-OB-8mg"/>
+                    <connections>
+                        <outlet property="UIEmailTF" destination="r1H-Cg-MnI" id="rta-C7-oia"/>
+                        <outlet property="UIPasswordTF" destination="RX9-SC-eV2" id="eM6-uH-8eY"/>
+                        <segue destination="BaG-RY-Dsg" kind="show" identifier="loginToDashboard" id="PRh-Oh-Rsp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="180.16304347826087" y="131.8840579710145"/>
+        </scene>
+        <!--Dashboard-->
+        <scene sceneID="yzZ-76-xkb">
+            <objects>
+                <viewController id="BaG-RY-Dsg" customClass="DashboardViewController" customModule="QuizMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l4g-Ro-vMw">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lgo-Zi-Kzk">
+                                <rect key="frame" x="16" y="74" width="604" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dy1-cT-BiU">
+                                <rect key="frame" x="686" y="78" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="CheckCodeOnClick:" destination="BaG-RY-Dsg" eventType="touchDown" id="vTz-90-qKE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="xjQ-Dc-XIj"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Dashboard" id="em5-gk-0I2"/>
+                    <connections>
+                        <outlet property="UICodeTF" destination="Lgo-Zi-Kzk" id="0Q8-O1-i2Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z4l-zI-Xeo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943.20000000000005" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEE46A4721927BB40064881A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE46A4621927BB40064881A /* AppDelegate.swift */; };
+		EEE46A4C21927BB40064881A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE46A4A21927BB40064881A /* Main.storyboard */; };
+		EEE46A4E21927BB50064881A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE46A4D21927BB50064881A /* Assets.xcassets */; };
+		EEE46A5121927BB50064881A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE46A4F21927BB50064881A /* LaunchScreen.storyboard */; };
+		EEE46A5A21927C690064881A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE46A5921927C690064881A /* LoginViewController.swift */; };
+		EEE46A5D21927CD40064881A /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE46A5C21927CD40064881A /* Users.swift */; };
+		EEE46A6021927D740064881A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE46A5F21927D740064881A /* DashboardViewController.swift */; };
+		EEE46A6221927DD40064881A /* TFAccessoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE46A6121927DD40064881A /* TFAccessoryViewController.swift */; };
+		EEE46A6621927E610064881A /* AdjustingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE46A6521927E610064881A /* AdjustingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEE46A4321927BB40064881A /* QuizMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE46A4621927BB40064881A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEE46A4B21927BB40064881A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEE46A4D21927BB50064881A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE46A5021927BB50064881A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEE46A5221927BB50064881A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE46A5921927C690064881A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EEE46A5C21927CD40064881A /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		EEE46A5F21927D740064881A /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		EEE46A6121927DD40064881A /* TFAccessoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFAccessoryViewController.swift; sourceTree = "<group>"; };
+		EEE46A6521927E610064881A /* AdjustingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE46A4021927BB40064881A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEE46A3A21927BB40064881A = {
+			isa = PBXGroup;
+			children = (
+				EEE46A4521927BB40064881A /* QuizMaker */,
+				EEE46A4421927BB40064881A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE46A4421927BB40064881A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE46A4321927BB40064881A /* QuizMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE46A4521927BB40064881A /* QuizMaker */ = {
+			isa = PBXGroup;
+			children = (
+				EEE46A6321927DE10064881A /* Custom */,
+				EEE46A5B21927CC80064881A /* DataModel */,
+				EEE46A5821927C4F0064881A /* ViewController */,
+				EEE46A4621927BB40064881A /* AppDelegate.swift */,
+				EEE46A4A21927BB40064881A /* Main.storyboard */,
+				EEE46A4D21927BB50064881A /* Assets.xcassets */,
+				EEE46A4F21927BB50064881A /* LaunchScreen.storyboard */,
+				EEE46A5221927BB50064881A /* Info.plist */,
+			);
+			path = QuizMaker;
+			sourceTree = "<group>";
+		};
+		EEE46A5821927C4F0064881A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EEE46A6121927DD40064881A /* TFAccessoryViewController.swift */,
+				EEE46A5921927C690064881A /* LoginViewController.swift */,
+				EEE46A5F21927D740064881A /* DashboardViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EEE46A5B21927CC80064881A /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEE46A5C21927CD40064881A /* Users.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		EEE46A6321927DE10064881A /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EEE46A6421927DE70064881A /* View */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		EEE46A6421927DE70064881A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEE46A6521927E610064881A /* AdjustingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE46A4221927BB40064881A /* QuizMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE46A5521927BB50064881A /* Build configuration list for PBXNativeTarget "QuizMaker" */;
+			buildPhases = (
+				EEE46A3F21927BB40064881A /* Sources */,
+				EEE46A4021927BB40064881A /* Frameworks */,
+				EEE46A4121927BB40064881A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizMaker;
+			productName = QuizMaker;
+			productReference = EEE46A4321927BB40064881A /* QuizMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE46A3B21927BB40064881A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Lainel John Dela Cruz";
+				TargetAttributes = {
+					EEE46A4221927BB40064881A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EEE46A3E21927BB40064881A /* Build configuration list for PBXProject "QuizMaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE46A3A21927BB40064881A;
+			productRefGroup = EEE46A4421927BB40064881A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE46A4221927BB40064881A /* QuizMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE46A4121927BB40064881A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE46A5121927BB50064881A /* LaunchScreen.storyboard in Resources */,
+				EEE46A4E21927BB50064881A /* Assets.xcassets in Resources */,
+				EEE46A4C21927BB40064881A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE46A3F21927BB40064881A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE46A5D21927CD40064881A /* Users.swift in Sources */,
+				EEE46A6221927DD40064881A /* TFAccessoryViewController.swift in Sources */,
+				EEE46A5A21927C690064881A /* LoginViewController.swift in Sources */,
+				EEE46A6621927E610064881A /* AdjustingView.swift in Sources */,
+				EEE46A6021927D740064881A /* DashboardViewController.swift in Sources */,
+				EEE46A4721927BB40064881A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEE46A4A21927BB40064881A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE46A4B21927BB40064881A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEE46A4F21927BB50064881A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE46A5021927BB50064881A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE46A5321927BB50064881A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEE46A5421927BB50064881A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE46A5621927BB50064881A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93CXP6R5M8;
+				INFOPLIST_FILE = QuizMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ljbdelacruz.QuizMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE46A5721927BB50064881A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93CXP6R5M8;
+				INFOPLIST_FILE = QuizMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ljbdelacruz.QuizMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE46A3E21927BB40064881A /* Build configuration list for PBXProject "QuizMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE46A5321927BB50064881A /* Debug */,
+				EEE46A5421927BB50064881A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE46A5521927BB50064881A /* Build configuration list for PBXNativeTarget "QuizMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE46A5621927BB50064881A /* Debug */,
+				EEE46A5721927BB50064881A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE46A3B21927BB40064881A /* Project object */;
+}
